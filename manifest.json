@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Random Qiita",
+  "version": "0.0.1",
+  "description": "Qiitaの最新の1万件の記事からランダムに1つの記事を表示します.",
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
